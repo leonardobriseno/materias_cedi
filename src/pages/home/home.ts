@@ -4,6 +4,7 @@ import { HistoriaPage } from '../historia/historia';
 import { DibujoPage } from '../dibujo/dibujo';
 import { AppsPage } from '../apps/apps';
 import { ComPage } from '../com/com';
+import { RoboticaPage } from '../robotica/robotica';
  
 @Component({
   selector: 'page-home',
@@ -14,6 +15,7 @@ export class HomePage {
   dibujo = DibujoPage;
   apps = AppsPage;
   com = ComPage;
+  robotica = RoboticaPage;
   constructor(public navCtrl: NavController) {
 
   }
@@ -32,5 +34,9 @@ export class HomePage {
   clickCom ()
   {
     this.navCtrl.push (this.com);
+  }
+  clickRobotica ()
+  {
+    this.navCtrl.push (this.robotica);
   }
 }
