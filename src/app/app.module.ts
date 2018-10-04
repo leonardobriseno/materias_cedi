@@ -11,6 +11,7 @@ import { DibujoPage } from '../pages/dibujo/dibujo';
 import { AppsPage } from '../pages/apps/apps';
 import { ComPage } from '../pages/com/com';
 import { RoboticaPage } from '../pages/robotica/robotica';
+import { CssPage } from '../pages/css/css';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { RoboticaPage } from '../pages/robotica/robotica';
     DibujoPage,
     AppsPage,
     ComPage,
-    RoboticaPage
+    RoboticaPage,
+    CssPage
   ],
   imports: [
     BrowserModule,
@@ -34,7 +36,8 @@ import { RoboticaPage } from '../pages/robotica/robotica';
     DibujoPage,
     AppsPage,
     ComPage,
-    RoboticaPage
+    RoboticaPage,
+    CssPage
   ],
   providers: [
     StatusBar,
