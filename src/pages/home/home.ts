@@ -7,6 +7,7 @@ import { ComPage } from '../com/com';
 import { RoboticaPage } from '../robotica/robotica';
 import { PyePage } from '../pye/pye';
 import { CssPage } from '../css/css';
+import { MiPage } from '../mi/mi';
 
  
 @Component({
@@ -21,6 +22,7 @@ export class HomePage {
   robotica = RoboticaPage;
   pye = PyePage;
   css = CssPage;
+  mi = MiPage;
   constructor(public navCtrl: NavController) {
 
   }
@@ -51,5 +53,9 @@ export class HomePage {
   clickCss ()
   {
     this.navCtrl.push (this.css);
+  }
+  clickMi ()
+  {
+    this.navCtrl.push (this.mi);
   }
 }

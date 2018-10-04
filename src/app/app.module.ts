@@ -13,6 +13,7 @@ import { ComPage } from '../pages/com/com';
 import { RoboticaPage } from '../pages/robotica/robotica';
 import { PyePage } from '../pages/pye/pye';
 import { CssPage } from '../pages/css/css';
+import { MiPage } from '../pages/mi/mi';
 
 
 @NgModule({
@@ -25,7 +26,8 @@ import { CssPage } from '../pages/css/css';
     ComPage,
     RoboticaPage,
     PyePage,
-    CssPage
+    CssPage,
+    MiPage
   ],
   imports: [
     BrowserModule,
@@ -41,7 +43,8 @@ import { CssPage } from '../pages/css/css';
     ComPage,
     RoboticaPage,
     PyePage,
-    CssPage
+    CssPage,
+    MiPage
   ],
   providers: [
     StatusBar,
