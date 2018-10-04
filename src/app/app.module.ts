@@ -12,6 +12,8 @@ import { AppsPage } from '../pages/apps/apps';
 import { ComPage } from '../pages/com/com';
 import { RoboticaPage } from '../pages/robotica/robotica';
 import { PyePage } from '../pages/pye/pye';
+import { CssPage } from '../pages/css/css';
+
 
 @NgModule({
   declarations: [
@@ -22,7 +24,8 @@ import { PyePage } from '../pages/pye/pye';
     AppsPage,
     ComPage,
     RoboticaPage,
-    PyePage
+    PyePage,
+    CssPage
   ],
   imports: [
     BrowserModule,
@@ -37,7 +40,8 @@ import { PyePage } from '../pages/pye/pye';
     AppsPage,
     ComPage,
     RoboticaPage,
-    PyePage
+    PyePage,
+    CssPage
   ],
   providers: [
     StatusBar,
